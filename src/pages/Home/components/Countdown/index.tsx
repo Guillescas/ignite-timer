@@ -2,9 +2,9 @@ import { useContext, useEffect } from 'react'
 
 import { differenceInSeconds } from 'date-fns'
 
-import * as Styles from './styles'
+import { CyclesContext } from '../../../../hooks/useCycles'
 
-import { CyclesContext } from '../..'
+import * as Styles from './styles'
 
 export function Countdown() {
   const {
