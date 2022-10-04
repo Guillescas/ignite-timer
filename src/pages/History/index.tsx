@@ -31,7 +31,7 @@ export function History() {
                 <td>{cycle.task}</td>
                 <td>{cycle.minutesAmount} minutos</td>
                 <td>
-                  {formatDistanceToNow(cycle.startdDate, {
+                  {formatDistanceToNow(new Date(cycle.startdDate), {
                     addSuffix: true,
                     locale: ptBR
                   })}
